@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .book {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .book img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .book h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .book p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .book .price {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .book .buy-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .book .buy-button:hover {
+    background-color: #0056b3;
+  }
